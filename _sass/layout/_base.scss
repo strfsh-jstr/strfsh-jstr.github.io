@@ -9,6 +9,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "Libron";
+  src: url("../fonts/Libron-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
